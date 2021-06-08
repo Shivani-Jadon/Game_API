@@ -1,0 +1,18 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>Ticket</title>
+    </head>
+    <body>
+        <table>
+            <% for(let row of ticket) { %>
+                <tr>
+                    <% for(let col of row) { %>
+                        <td colspan="3"><%= col %></td>
+                    <% } %>
+                </tr>
+                
+            <% } %>
+        </table>
+    </body>
+</html>
