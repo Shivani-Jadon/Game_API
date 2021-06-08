@@ -25,7 +25,7 @@ npm install
 npm start or node index.js
 ```
 
-## How to use API (Understanding the end points)? (!!Important in understanding API)
+## URL description and API end points
 #### Base URL : `http://localhost:8500`
 #### End Points :
 1. `/api/game/create` -> game_id\ (POST) : creates new game
