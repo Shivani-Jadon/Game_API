@@ -11,7 +11,7 @@ router.post("/api/game/create", game_controller.createGame);
 router.get("/ticket/:ticket_id", ticket_controller.fetchTicket);
 
 // handling routes by gameRouter
-router.use("/api/game/:game_id", require("./gameRoute"));
+router.use("/api/game", require("./gameRoute"));
 
 // handling routes by userRouter
 router.use("/api/user", require("./userRouter"));

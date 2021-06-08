@@ -15,8 +15,7 @@ module.exports.createUser = function(req, res){
                return;
            } 
 
-           console.log("### ", newUser);
-           return res.json();
+           return res.send("New user created");
         }
     )
 };
